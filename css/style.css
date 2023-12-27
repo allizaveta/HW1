@@ -7,8 +7,9 @@
 
 .bg{
     background-image: url(../img/Rectangle\ 1.jpg);
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 1024px;
 }
@@ -18,14 +19,14 @@
     margin-left: 120px;
 }
 
-.bg-block_title{
+.bg_block_title{
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
     margin-bottom: 32px;
 }
 
-.bg-block_text{
+.bg_block_text{
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
@@ -38,12 +39,25 @@
     line-height: 32px;
 }
 
-.bg-block_btn{
+.bg_block_text_mobile{
+    display: none;
+}
+
+.sep_mobile{
+    display: none;
+}
+
+.bg_block_btn{
     width: 234.06px;
     height: 48.6px;
     border-radius: 30px;
     border: none;
     background-color:#9C0332;
+}
+
+.bg_block_btn:hover{
+    cursor: pointer;
+    background-color: #7d0127;
 }
 
 /* А тут верстка едет 
@@ -70,12 +84,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
 .background_block{
     width: 379px;
     height: 300px;
+}
+
+.background_block_link{
+    width: 379px;
+    height: 300px;
+    display: block; 
 }
 
 .background_block_pic{
@@ -85,6 +106,11 @@
     position: absolute;
 }
 
+.background_block:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .background_block_text{
     font-size: 24px;
     font-weight: 600;
@@ -92,4 +118,59 @@
     position: relative;
     top: 236px;
     left: 32px;
+}
+
+@media (max-width: 767px){
+    .bg{
+        width: 100vw;
+        height: 735px;
+    }
+    .center{
+        padding-left: calc(50% - 343px/2);
+        padding-right: calc(50% - 343px/2);
+    }
+    .bg_block{
+        display: flex;
+        padding-top: 240px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg_block_title{
+        font-size: 32px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .bg_block_text_mobile{
+        display: block;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .sep_mobile{
+        display: inline;
+    }
+
+    .bg_block_text{
+        display: none;
+    }
+
+    .sep{
+        display: none;
+    }
+
+    .background {
+        height: 1221px;
+        gap: 32px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .background_block_pic{
+        width: 343px;
+        height: 300px;
+    }
 }
