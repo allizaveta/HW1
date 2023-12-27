@@ -34,8 +34,8 @@
    num -= 3;
    num *= 7;
    num /= 3;
-   ++num
-   --num
+   num++
+   num++
    alert(num);
    //8
    let age = Number(prompt('Сколько вам лет?'));
@@ -47,13 +47,13 @@
        isAdmin : false
    }
    //9.1
-   user.cityOfResidence = 'Moscow';
+   user['city of residence'] = 'Moscow';
    //9.2
    age = 35;
    //9.3
-   delete user.cityOfResidence
+   delete user['city of residence']
    //9.4
-   user.info = string(prompt("Какую информацию хотите узнать o пользователе?"));
+   let info = prompt("Какую информацию хотите узнать o пользователе?", '');
    alert(user[info]);
    //10
    baba = prompt('Как тебя зовут?')
