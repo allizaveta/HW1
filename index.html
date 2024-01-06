@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/hw1/css/style.css" class="css">
+    <title>Documen</title>
+    <link rel="stylesheet" href="./css/style.css" class="css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="bg">
-        <div class="bg_block">
-            <h1 class="bg-block_title">Добро пожаловать<br>на мой сайт !</h1>
-            <p class="bg-block_text">Вам предстоит пройти несколько увлекательных<br>игр. Если готов нажимай <sep class="sep">поехали</sep> и <sep class="sep">приступай</sep></p>
-            <button class="bg-block_btn">Поехали!</button>
+    <div class="main__section center">
+        <div class="main__section__block">
+            <h1 class="main__section__title">Добро пожаловать<br>на мой сайт !</h1>
+            <p class="main__section__text">Вам предстоит пройти несколько увлекательных<br>игр. Если готов нажимай<span class="main__section__text-sep"> поехали</span> и <span class="main__section__text-sep"> приступай</span></p>
+
+            <p class="main__section__text-mobile">Вам предстоит пройти несколько<br>увлекательных игр. Если готов нажимай<br><span class="main__section__text-sep-mobile">поехали </span>и<span class="main__section__text-sep-mobile"> приступай</span></p>
+            <button class="main__section__btn">Поехали!</button>
         </div>
     </div>
-    <div class="background">
-        <div class="background_block">
-            <img  class="background_block_pic" src="./img/1.jpg" alt="Игра 1">
-            <p class="background_block_text">Игра 1</p>
+    <div class="background center">
+        <div class="background__block">
+            <a class="background__link" href="#"><img  class="background__pic" src="./img/1.jpg" alt="Игра 1">
+                <p class="background__text">Игра 1</p></a>
         </div>
-        <div class="background_block">
-            <img class="background_block_pic"  src="./img/2.jpg" alt="Игра 2">
-            <p class="background_block_text">Игра 2</p>
+        <div class="background__block">
+            <a class="background__link" href="#"><img class="background__pic"  src="./img/2.jpg" alt="Игра 2">
+                <p class="background__text">Игра 2</p></a>
         </div>
-        <div class="background_block">
-            <img class="background_block_pic"  src="./img/3.jpg" alt="Игра 3">
-            <p class="background_block_text">Игра 3</p>
+        <div class="background__block">
+            <a class="background__link" href="#"><img class="background__pic"  src="./img/3.jpg" alt="Игра 3">
+                <p class="background__text">Игра 3</p></a>
         </div>
     </div>
 </body>
