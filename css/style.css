@@ -19,35 +19,35 @@
     margin-left: 120px;
 }
 
-.main__section__block__title{
+.main__section__title{
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
     margin-bottom: 32px;
 }
 
-.main__section__block__text{
+.main__section__text{
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
     margin-bottom: 44px;
 }
 
-.main__section__block__text-sep{
+.main__section__text-sep{
     font-size: 18px;
     font-weight: 700;
     line-height: 32px;
 }
 
-.main__section__block__text-mobile{
+.main__section__text-mobile{
     display: none;
 }
 
-.main__section__block__text-sep-mobile{
+.main__section__text-sep-mobile{
     display: none;
 }
 
-.main__section__block__btn{
+.main__section__btn{
     width: 234.06px;
     height: 48.6px;
     border-radius: 30px;
@@ -55,7 +55,7 @@
     background-color:#9C0332;
 }
 
-.main__section__block__btn:hover{
+.main__section__btn:hover{
     cursor: pointer;
     background-color: #7d0127;
 }
@@ -93,13 +93,13 @@
     height: 300px;
 }
 
-.background__block__link{
+.background__link{
     width: 379px;
     height: 300px;
     display: block; 
 }
 
-.background__block__pic{
+.background__pic{
     width: 379px;
     height: 300px;
     border-radius: 16px;
@@ -111,7 +111,7 @@
     transition: 0.2s;
 }
 
-.background__block__text{
+.background__text{
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -137,27 +137,27 @@
         align-items: center;
     }
 
-    .main__section__block__title{
+    .main__section__title{
         font-size: 32px;
         line-height: normal;
         text-align: center;
     }
 
-    .main__section__block__text-mobile{
+    .main__section__text-mobile{
         display: block;
         margin-bottom: 32px;
         text-align: center;
     }
 
-    .main__section__block__text-sep-mobile{
+    .main__section__text-sep-mobile{
         display: inline;
     }
 
-    .main__section__block__text{
+    .main__section__text{
         display: none;
     }
 
-    .main__section__block__text-sep{
+    .main__section__text-sep{
         display: none;
     }
 
@@ -169,7 +169,7 @@
         justify-content: center;
     }
     
-    .background__block__pic{
+    .background__pic{
         width: 343px;
         height: 300px;
     }

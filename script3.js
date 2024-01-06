@@ -1,7 +1,7 @@
 //1
 let password = 'psw';
 let userPassword = prompt('Введите пароль', '');
-if(password == userPassword){
+if(password === userPassword){
     alert('Пароль введен верно');
 }
 else{
@@ -32,6 +32,10 @@ let b = '3';
 alert(Number(a) + Number(b));
 //5
 let monthNumber = Number(prompt('Введи номер месяца'));
+if (!monthNumber.trim()){
+    console.log('капец..')
+}
+else{
 switch (monthNumber) {
     case 1:
     case 2:
@@ -56,10 +60,13 @@ switch (monthNumber) {
     default: alert('Нет такого месяца!!!!!!!!');
         break;
 }
-
+}
 //7 
 let number = Number(prompt('Пожалуйста, введите любое число'));
-if(number % 2 == 0) {
+if (!number.trim()){
+    console.log('капец..')
+}
+else if(number % 2 == 0) {
     alert('Число четное')
 }
 else{
@@ -69,7 +76,13 @@ else{
 //8,9
 let clientOS = prompt('OS телефона: ios = 0 Android = 1', '');
 let yearOfCreation = prompt('год выпуска вашего телефона', '');
-if(clientOS = 1 && yearOfCreation >= 2015){
+if(!clientOS.trim()){
+    console.log('капец..')
+}
+else if(!yearOfCreation.trim()){
+    console.log('мда..')
+}
+else if(clientOS === 1 && yearOfCreation >= 2015){
     console.log("Установите версию приложения для Android по ссылке");
 }
 else if(clientOS = 1 && yearOfCreation <= 2015){
