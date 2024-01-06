@@ -5,49 +5,49 @@
     color: #ffffff;
 }
 
-.bg{
+.main__section{
     background-image: url(../img/Rectangle\ 1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1024px;
+    height:  1024px;
 }
 
-.bg_block{
+.main__section__block{
     padding-top: 220px;
     margin-left: 120px;
 }
 
-.bg_block_title{
+.main__section__title{
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
     margin-bottom: 32px;
 }
 
-.bg_block_text{
+.main__section__text{
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
     margin-bottom: 44px;
 }
 
-.sep{
+.main__section__text-sep{
     font-size: 18px;
     font-weight: 700;
     line-height: 32px;
 }
 
-.bg_block_text_mobile{
+.main__section__text-mobile{
     display: none;
 }
 
-.sep_mobile{
+.main__section__text-sep-mobile{
     display: none;
 }
 
-.bg_block_btn{
+.main__section__btn{
     width: 234.06px;
     height: 48.6px;
     border-radius: 30px;
@@ -55,7 +55,7 @@
     background-color:#9C0332;
 }
 
-.bg_block_btn:hover{
+.main__section__btn:hover{
     cursor: pointer;
     background-color: #7d0127;
 }
@@ -88,30 +88,30 @@
 
 }
 
-.background_block{
+.background__block{
     width: 379px;
     height: 300px;
 }
 
-.background_block_link{
+.background__link{
     width: 379px;
     height: 300px;
     display: block; 
 }
 
-.background_block_pic{
+.background__pic{
     width: 379px;
     height: 300px;
     border-radius: 16px;
     position: absolute;
 }
 
-.background_block:hover{
+.background__block:hover{
     transform: scale(1.05);
     transition: 0.2s;
 }
 
-.background_block_text{
+.background__text{
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -121,7 +121,7 @@
 }
 
 @media (max-width: 767px){
-    .bg{
+    .main__section{
         width: 100vw;
         height: 735px;
     }
@@ -129,7 +129,7 @@
         padding-left: calc(50% - 343px/2);
         padding-right: calc(50% - 343px/2);
     }
-    .bg_block{
+    .main__section__block{
         display: flex;
         padding-top: 240px;
         margin: 0;
@@ -137,31 +137,31 @@
         align-items: center;
     }
 
-    .bg_block_title{
+    .main__section__title{
         font-size: 32px;
         line-height: normal;
         text-align: center;
     }
 
-    .bg_block_text_mobile{
+    .main__section__text-mobile{
         display: block;
         margin-bottom: 32px;
         text-align: center;
     }
 
-    .sep_mobile{
+    .main__section__text-sep-mobile{
         display: inline;
     }
 
-    .bg_block_text{
+    .main__section__text{
         display: none;
     }
 
-    .sep{
+    .main__section__text-sep{
         display: none;
     }
 
-    .background {
+    .background{
         height: 1221px;
         gap: 32px;
         align-items: center;
@@ -169,7 +169,7 @@
         justify-content: center;
     }
     
-    .background_block_pic{
+    .background__pic{
         width: 343px;
         height: 300px;
     }
