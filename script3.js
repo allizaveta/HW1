@@ -66,7 +66,7 @@ let number = Number(prompt('Пожалуйста, введите любое чи
 if (!number.trim()){
     console.log('капец..')
 }
-else if(number % 2 == 0) {
+else if(number % 2 === 0) {
     alert('Число четное')
 }
 else{
@@ -85,10 +85,10 @@ else if(!yearOfCreation.trim()){
 else if(clientOS === 1 && yearOfCreation >= 2015){
     console.log("Установите версию приложения для Android по ссылке");
 }
-else if(clientOS = 1 && yearOfCreation <= 2015){
+else if(clientOS === 1 && yearOfCreation <= 2015){
     console.log('Установите облегченную версию приложения для Android по ссылке')
 }
-else if(clientOS = 0 && yearOfCreation <= 2015){
+else if(clientOS === 0 && yearOfCreation <= 2015){
     console.log('Установите облегченную версию приложения для iOS по ссылке')
 }
 else{
