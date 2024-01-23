@@ -161,6 +161,9 @@
     gap: 32px;
     grid-column: span 6;
 }
+.seasons__cheating{
+    grid-column: span 1;
+}
 
 .seasons__text-mobile{
     display: none;
