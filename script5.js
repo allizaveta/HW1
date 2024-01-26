@@ -52,13 +52,14 @@ function check(a, b){
     }
 }
 //6
-function squ(a){
+function squ(){
 a = prompt("Введи число")
 if(isNaN(a)){
     console.log('Переданный параметр не является числом')
 }
 else{
-    console.log(`${a} в кубе равняется ${a ** 2}`)
+    b = a ** 3
+    console.log(`${a} в кубе равняется ${b}`)
 }
 }
 squ()
