@@ -39,36 +39,8 @@
                 <h3 class="seasons__title">Времена года!</h3>
                 <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы<br> узнаете к какому времени года он относится</p>
                 <p class="seasons__text-mobile">Нажмите кнопку играть, введите номер<br> месяца (от 1 до 12) и вы узнаете к какому<br> времени года он относится</p>
-                <button class="seasons__btn" onclick="let monthNumber = Number(prompt('Введи номер месяца'));
-                if (isNaN(monthNumber) || monthNumber < 1 || monthNumber > 12) {
-                    alert('Некорректный ввод месяца');
-                } else {
-                    switch (monthNumber) {
-                        case 1:
-                        case 2:
-                        case 3:
-                            alert('Зима');
-                            break;
-                        case 4:
-                        case 5:
-                        case 6:
-                            alert('Весна');
-                            break;
-                        case 7:
-                        case 8:
-                        case 9:
-                            alert('Лето');
-                            break;
-                        case 10:
-                        case 11:
-                        case 12:
-                            alert('Осень');
-                            break;
-                        default:
-                            alert('Нет такого месяца!!!!!!!!');
-                            break;
-                    }
-                }">Играть!</button>
+                <button class="seasons__btn" onclick="season(prompt('Введи номер месяца'))">Играть!</button>
+                <script src="/scriptt.js"></script>
             </div>
             <div class="seasons__cheating"></div>
             <svg class="seasons__pic" width="485" height="334" viewBox="0 0 485 334" fill="none" xmlns="http://www.w3.org/2000/svg">
