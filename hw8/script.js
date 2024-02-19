@@ -61,5 +61,5 @@ function delayForSecond(cb) {
 function sayHi (name) {
     console.log(`Привет, ${name}!`);
 }
-
+//adsdaXCDERFCERF <KZNM
 delayForSecond(() => sayHi('Глеб'))
